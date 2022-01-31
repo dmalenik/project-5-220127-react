@@ -1,0 +1,12 @@
+.disabled {
+  cursor: not-allowed;
+}
+.text-white {
+  color: white;
+}
+.menu-element:link,
+.menu-element:visited,
+.menu-element:hover,
+.menu-element:active {
+  text-decoration: none;
+}

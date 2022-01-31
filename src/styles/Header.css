@@ -1,0 +1,13 @@
+#start {
+  padding-left: 7%;
+  padding-right: 7%;
+  background-color: #595856;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#logo {
+  height: 16px;
+  color: white;
+  font-weight: bolder;
+}

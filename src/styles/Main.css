@@ -1,0 +1,43 @@
+#main {
+  height: 100vh;
+  padding-left: 7%;
+  padding-right: 7%;
+  background: url("../img/dan-otis-OYFHT4X5isg-unsplash-imresizer.jpg")
+    center/100% 100% no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+}
+.slogan-main-1 {
+  width: 50%;
+  height: 68px;
+  font-size: xx-large;
+  font-weight: bolder;
+  color: white;
+}
+.slogan-main-2 {
+  width: 50%;
+  height: 17px;
+  font-size: medium;
+  color: white;
+  font-weight: bolder;
+}
+.button {
+  width: 145px;
+  height: 35px;
+  border: 3px solid white;
+  color: white;
+  background-color: unset;
+  transition-timing-function: linear;
+  transition-duration: 1s;
+}
+.text-bolder {
+  margin-top: unset;
+  margin-bottom: unset;
+  font-weight: bolder;
+}
+.button:hover {
+  background-color: white;
+  color: black;
+}

@@ -1,0 +1,30 @@
+.employees {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.portrait {
+  padding: 11%;
+  margin: 2%;
+  border-radius: 155px;
+}
+.img1 {
+  background: url(../img/birmingham-museums-trust-Kv1hYl9LlxU-unsplash-imresizer.jpg)
+    center/contain no-repeat;
+}
+.img2 {
+  background: url(../img/birmingham-museums-trust-zTJX8ObJdp4-unsplash-imresizer.jpg)
+    center/contain no-repeat;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+}
+.credentials {
+  font-weight: 1000;
+}
+.employees:nth-of-type(even) {
+  flex-direction: row-reverse;
+  text-align: right;
+}

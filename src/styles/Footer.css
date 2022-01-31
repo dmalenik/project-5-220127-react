@@ -1,0 +1,20 @@
+#copyright {
+  padding-left: 7%;
+  padding-right: 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #595856;
+}
+.text-copyright {
+  padding: 10px;
+  font-weight: bolder;
+  color: white;
+}
+.icons {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
